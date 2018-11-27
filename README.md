@@ -31,3 +31,10 @@ pip install -r /path/requirements.txt
     - pytest -v --cov
     - This is where the coverage module that we installed comes in, it shows us how much of our application is being tested (well the individual file)
     - As a side note, pytest finds the tests by looking for py files prefixed with things like 'test_'
+
+## CircleCI
+
+To use circle ci, you repo is expected to contain a .circleci folder with a config.yml file inside that specifies all the build requirements of your application.
+
+- Created a circleci folder
+  - Have a config.yml file with build specs
