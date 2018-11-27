@@ -38,3 +38,8 @@ To use circle ci, you repo is expected to contain a .circleci folder with a conf
 
 - Created a circleci folder
   - Have a config.yml file with build specs
+
+
+#### Credit
+
+All credit goes to and comes from this article <https://realpython.com/python-continuous-integration/#using-an-external-continuous-integration-service>
